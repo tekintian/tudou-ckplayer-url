@@ -1,6 +1,11 @@
 # tudou-ckplayer-url
 土豆视频播放[ckplayer],下载地址解析, tudou.com video player url resolution, fast and no ads player
 
+tudou.php 土豆视频地址解析且集成了ckplayer播放器
+vtudou.php 土豆视频信息与下载地址获取工具
+
+
+
 tudou.php使用方法:
 1.上传tudou.php与ckplayer目录到你的服务器
 2.在你的项目中调用土豆视频的方法如下:
@@ -11,3 +16,9 @@ tudou.php使用方法:
  vtudou.php使用方法:
  上传到你的服务器, 执行 vtudou.php?url=http://www.tudou.com/programs/view/jNCCgpZr0Rg/ 即可查看该视频的相关IID SID  分享地址以及视频下载地址.
  
+
+作者: Tekin
+网址: http://dev.tekin.cn
+
+微信营销网 
+http://wy.yunnan.ws
