@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ckplayer 视频解析播放调用演示 - 只调用flash播放器</title>
+</head>
+<body>
+<div id="a1"></div>
+<script type="text/javascript" src="/ckplayer/ckplayer.js" charset="utf-8"></script>
+<script type="text/javascript">
+	var flashvars={
+		f:'http://dev.tekin.cn/ckplayer/video.php?url=http://v.youku.com/v_show/id_XMjM2MDY0NTQw.html',
+		s:2,
+		c:0,
+		b:1
+		};
+	var params={bgcolor:'#FFF',allowFullScreen:true,allowScriptAccess:'always',wmode:'transparent'};
+	CKobject.embedSWF('/ckplayer/ckplayer.swf','a1','ckplayer_a1','600','400',flashvars,params);
+</script>
+</body>
+</html>
